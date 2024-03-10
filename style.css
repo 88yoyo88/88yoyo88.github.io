@@ -1,0 +1,168 @@
+@font-face {
+  font-family: "garet";
+  src: url(fonts/garet\\1\zip);
+}
+
+@font-face {
+  font-family: "lemonmilk";
+  src: url(fonts/LEMONMILK-Light.otf);
+  font-weight: light;
+}
+
+@font-face {
+  font-family: "lemonmilkm";
+  src: url(fonts/LEMONMILK-Medium.otf);
+}
+
+
+
+.main-header {
+  font-family: "lemonmilk";
+  background-color: #636363;
+  width: 100%;
+  height: 100vh;
+  max-height: 70;
+  letter-spacing: 6px;
+  font-size: 18;
+  padding: 5px 0;
+  padding-top: 26;
+}
+
+.pa {
+  width: 70%;
+  color: #000000;
+  text-decoration: none;
+  padding: 70px 0;
+}
+
+.ill {
+  width: 70%;
+  color: #000000;
+  text-decoration: none;
+
+  margin-left: 70;
+  padding: 70px 0;
+}
+
+.ab {
+  width: 70%;
+  color: #000000;
+  text-decoration: none;
+  margin: 70;
+  padding: 70px 0;
+}
+
+.packaging {
+  width: 70%;
+  border: 25px;
+  padding: 60px;
+  margin: 70px;
+
+  margin-left: 170;
+  background-color: rgb(44, 44, 44);
+  border-radius: 50px;
+}
+
+.illustration {
+  width: 70%;
+  border: 25px;
+  padding: 60px;
+  margin: 70px;
+  margin-left: 170;
+  background-color: rgb(44, 44, 44);
+  border-radius: 50px;
+}
+
+.about {
+  width: 70%;
+  border: 25px;
+  padding: 60px;
+  margin: 25px;
+  margin-top: 100;
+  margin-left: 170;
+  background-color: rgb(44, 44, 44);
+  border-radius: 50px;
+}
+
+.contacts {
+  width: 70%;
+  border: 25px;
+  padding: 60px;
+  margin-left: 170;
+  background-color: #2c2c2c;
+  border-radius: 50px;
+
+}
+
+h1 {
+  font-family: "lemonmilkm";
+  color: antiquewhite;
+  font-size: 30px;
+  margin-bottom: 0;
+  letter-spacing: 4px;
+  line-height: 40px;
+  margin-top: 100;
+}
+
+h2 {
+  font-family: "lemonmilk";
+  color: antiquewhite;
+  font-size: 3em;
+  margin-top: 0%;
+  align-items: center;
+  letter-spacing: 4px;
+}
+h3 {
+  font-family: "lemonmilk";
+  align-items: center;
+  color: antiquewhite;
+}
+
+.inst {
+    width: 40;
+    background-color: #803333;
+  color: #000000;
+  text-decoration: none;
+  margin: 30;
+  padding: 30px 0;
+  border-radius: 40;
+}
+
+
+h5 {
+  font-family: "lemonmilk";
+  color: antiquewhite;
+  margin-top: 0%;
+  align-items: center;
+  font-size: 10px;
+  letter-spacing: 12px;
+  line-height: 10px;
+  margin-left: 5;
+}
+
+h6 {
+  font-family: "garet";
+  color: antiquewhite;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.img {
+  margin: 5;
+  outline-color: black;
+  max-width: 100%;
+  max-height: 20%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+
+  padding-bottom: 200;
+
+  background-color: black;
+  background-attachment: fixed;
+}
