@@ -262,11 +262,11 @@ picture {
 
 
 
-@supports (animation-timeline: scroll())  {
+-webkit-@supports (animation-timeline: scroll())  {
 
   .active1, .active3 {
     -webkit-transform: translateY(calc(-100% + 150vh)) ;
-    flex-direction: column-reverse;
+    -webkit-flex-direction: column-reverse;
   }
 
 
@@ -278,7 +278,7 @@ picture {
   }
 }
 
-@keyframes adjust-position {
+-webkit-@keyframes adjust-position {
   from {
     -webkit-transform: translateY(calc(-100% +100vh));
   }
@@ -288,8 +288,8 @@ picture {
 }
 
 .active1, .active3 {
-  animation: adjust-position linear forwards;
-  animation-timeline: scroll(root block);
+  -webkit-animation: adjust-position linear forwards;
+  -webkit-animation-timeline: scroll(root block);
 }
 
 /* постери кінець ////////////////////////////////////////////////*/
