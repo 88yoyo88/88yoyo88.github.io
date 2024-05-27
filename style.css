@@ -262,11 +262,11 @@ picture {
 
 
 
--webkit-@supports (animation-timeline: scroll())  {
+@supports (animation-timeline: scroll())  {
 
   .active1, .active3 {
-    -webkit-transform: translateY(calc(-100% + 150vh)) ;
-    -webkit-flex-direction: column-reverse;
+    transform: translateY(calc(-100% + 150vh)) ;
+    flex-direction: column-reverse;
   }
 
 
@@ -278,18 +278,18 @@ picture {
   }
 }
 
--webkit-@keyframes adjust-position {
+@keyframes adjust-position {
   from {
-    -webkit-transform: translateY(calc(-100% +100vh));
+    transform: translateY(calc(-100% +100vh));
   }
   to {
-    -webkit-transform: translateY(calc(100% - 100vh));
+    transform: translateY(calc(100% - 100vh));
   }
 }
 
 .active1, .active3 {
-  -webkit-animation: adjust-position linear forwards;
-  -webkit-animation-timeline: scroll(root block);
+  animation: adjust-position linear forwards;
+  animation-timeline: scroll(root block);
 }
 
 /* постери кінець ////////////////////////////////////////////////*/
