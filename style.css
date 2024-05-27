@@ -265,7 +265,7 @@ picture {
 @supports (animation-timeline: scroll())  {
 
   .active1, .active3 {
-    transform: translateY(calc(-100% + 150vh)) ;
+    -webkit-transform: translateY(calc(-100% + 150vh)) ;
     flex-direction: column-reverse;
   }
 
@@ -280,10 +280,10 @@ picture {
 
 @keyframes adjust-position {
   from {
-    transform: translateY(calc(-100% +100vh));
+    -webkit-transform: translateY(calc(-100% +100vh));
   }
   to {
-    transform: translateY(calc(100% - 100vh));
+    -webkit-transform: translateY(calc(100% - 100vh));
   }
 }
 
